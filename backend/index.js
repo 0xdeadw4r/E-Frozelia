@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://e-frozeliatwo.onrender.com" , "https://admin-frozelia.onrender.com"],
+ origin:["https://elite-frozelia.onrender.com" , "https://admin-frozelia.onrender.com"],
  credentials:true
 }))
 
